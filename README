@@ -1,0 +1,22 @@
+AND gate
+16 bit AND gate
+OR gate
+8 bit OR gate
+16 bit OR gate
+NOT gate
+16 bit NOT gate
+XOR gate
+HALFADDER
+FULLADDER
+16 bit FULLADDER
+16 bit INCREMENTER
+MUX 2:1
+MUX 16bit 2:1
+MUX 16bit 4:1
+MUX 16bit 8:1
+DMUX 1:2
+DMUX 16bit 1:2
+DMUX 16bit 1:4
+DMUX 16bit 1:8
+ALU
+Test benches for all
