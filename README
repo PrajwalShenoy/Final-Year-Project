@@ -10,7 +10,7 @@ NotDone
 Aldrich
 Done
 NotDone
-NOT gate (MOS levels)
+DMUX 1:2
 16 bit NOT gate // use the above module
 XOR gate (Use the AND, OR, NOT modules) (1bit)
 
@@ -24,15 +24,15 @@ FULLADDER
 
 Prajwal
 Done
-NotDone
+NOT (MOS level)
 MUX 2:1
 MUX 16bit 2:1
+NotDone
 MUX 16bit 4:1
 MUX 16bit 8:1
 
 ----------------------------------------------------------------------
 
-DMUX 1:2
 DMUX 16bit 1:2
 DMUX 16bit 1:4
 DMUX 16bit 1:8
