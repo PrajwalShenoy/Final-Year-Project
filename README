@@ -1,24 +1,42 @@
-AND gate
+Paarthvi
+Done
+AND gate (MOS levels)  
+OR gate 
+NotDone
 16 bit AND gate
-OR gate
 8 bit OR gate
 16 bit OR gate
-NOT gate
-16 bit NOT gate
-XOR gate
+
+Aldrich
+Done
+NotDone
+NOT gate (MOS levels)
+16 bit NOT gate // use the above module
+XOR gate (Use the AND, OR, NOT modules) (1bit)
+
+Sanath 
+Done
+NotDone
 HALFADDER
 FULLADDER
-16 bit FULLADDER
+16 bit FULLADDER (Ripple carry adder)
 16 bit INCREMENTER
+
+Prajwal
+Done
+NotDone
 MUX 2:1
 MUX 16bit 2:1
 MUX 16bit 4:1
 MUX 16bit 8:1
+
+----------------------------------------------------------------------
 DMUX 1:2
 DMUX 16bit 1:2
 DMUX 16bit 1:4
 DMUX 16bit 1:8
+
 ALU
 Test benches for all
 
-COntributors to this projecta re Prajwal, Paarthvi, Sanath and Aldrich
+Contributors to this project are Prajwal, Paarthvi, Sanath and Aldrich
