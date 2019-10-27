@@ -10,8 +10,8 @@ NotDone
 Aldrich
 Done
 NotDone
-DMUX 1:2
-XOR gate (Use the AND, OR, NOT modules) (1bit)
+
+
 
 Sanath 
 Done
@@ -30,9 +30,11 @@ MUX 16bit 8:1
 MUX 16bit 4:1
 NotDone
 16 bit NOT gate
+XOR gate
 
 ----------------------------------------------------------------------
 
+DMUX 1:2
 DMUX 16bit 1:2
 DMUX 16bit 1:4
 DMUX 16bit 1:8
