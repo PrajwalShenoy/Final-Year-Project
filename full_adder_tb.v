@@ -23,7 +23,7 @@ module full_adder_tb;
  reg a,b,cin;
  wire sum,carry;
  
- full_addder fadd(sum,carry,a,b,cin);
+ full_adder fadd(sum,carry,a,b,cin);
  initial begin
  
  a=1'b0;b=1'b0;cin=1'b0;#5
