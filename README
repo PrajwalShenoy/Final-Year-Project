@@ -27,9 +27,9 @@ Done
 NOT (MOS level)
 MUX 2:1
 MUX 16bit 2:1
+MUX 16bit 8:1
 NotDone
 MUX 16bit 4:1
-MUX 16bit 8:1
 
 ----------------------------------------------------------------------
 
