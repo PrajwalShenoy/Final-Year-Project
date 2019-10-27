@@ -1,6 +1,6 @@
 Paarthvi
 Done
-AND gate (MOS levels)  
+AND gate 
 OR gate 
 NotDone
 16 bit AND gate
@@ -9,13 +9,14 @@ NotDone
 
 Aldrich
 Done
+DMUX 1:2
 NotDone
 
 Sanath 
 Done
 HALFADDER
 FULLADDER
-16 bit FULLADDER (Ripple carry adder)
+16 bit FULLADDER
 XOR gate
 NotDone
 16 bit INCREMENTER
@@ -28,17 +29,14 @@ MUX 2:1
 MUX 16bit 2:1
 MUX 16bit 8:1
 MUX 16bit 4:1
+DMUX 16bit 1:2
+DMUX 16bit 1:4
 NotDone
-
+DMUX 16bit 1:8
+Scripts for creating test benches - 16 bit inputs
+Scripts for verifying testbench results
+Creating log files for larger testbenches for easy verification
 
 ----------------------------------------------------------------------
 
-DMUX 1:2
-DMUX 16bit 1:2
-DMUX 16bit 1:4
-DMUX 16bit 1:8
-
 ALU
-Test benches for all
-
-Contributors to this project are Prajwal, Paarthvi, Sanath and Aldrich
