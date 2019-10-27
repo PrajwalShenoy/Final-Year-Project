@@ -16,10 +16,10 @@ Sanath
 Done
 HALFADDER
 FULLADDER
-16 bit FULLADDER
 XOR gate
 NotDone
-16 bit INCREMENTER
+16 bit FULLADDER (problem with the TB)
+16 bit INCREMENTER (problem with the TB)
 
 Prajwal
 Done
