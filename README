@@ -29,8 +29,8 @@ MUX 2:1
 MUX 16bit 2:1
 MUX 16bit 8:1
 MUX 16bit 4:1
-NotDone
 DMUX 16bit 1:2
+NotDone
 DMUX 16bit 1:4
 DMUX 16bit 1:8
 Scripts for creating test benches - 16 bit inputs
