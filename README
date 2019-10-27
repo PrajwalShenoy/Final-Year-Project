@@ -13,10 +13,11 @@ NotDone
 
 Sanath 
 Done
-NotDone
 HALFADDER
 FULLADDER
 16 bit FULLADDER (Ripple carry adder)
+XOR gate
+NotDone
 16 bit INCREMENTER
 
 Prajwal
@@ -28,7 +29,7 @@ MUX 16bit 2:1
 MUX 16bit 8:1
 MUX 16bit 4:1
 NotDone
-XOR gate
+
 
 ----------------------------------------------------------------------
 
