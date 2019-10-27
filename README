@@ -24,12 +24,12 @@ FULLADDER
 Prajwal
 Done
 NOT (MOS level)
+16 bit NOT gate
 MUX 2:1
 MUX 16bit 2:1
 MUX 16bit 8:1
 MUX 16bit 4:1
 NotDone
-16 bit NOT gate
 XOR gate
 
 ----------------------------------------------------------------------
