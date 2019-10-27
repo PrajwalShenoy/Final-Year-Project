@@ -9,6 +9,7 @@ NotDone
 
 Aldrich
 Done
+DMUX 1:2
 NotDone
 
 Sanath 
@@ -30,10 +31,8 @@ MUX 16bit 8:1
 MUX 16bit 4:1
 NotDone
 
-
 ----------------------------------------------------------------------
 
-DMUX 1:2
 DMUX 16bit 1:2
 DMUX 16bit 1:4
 DMUX 16bit 1:8
