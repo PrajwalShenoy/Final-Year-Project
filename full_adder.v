@@ -19,6 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+//2 half adder model of full adder sum= a^b^cin carry = (a^b).cin+a.b
 module full_adder(sum,carry.a,b,cin);
 	input a,b,cin;
     output sum,carry;
