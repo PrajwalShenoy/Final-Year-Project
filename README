@@ -17,9 +17,9 @@ Done
 HALFADDER
 FULLADDER
 XOR gate
+16 bit FULLADDER
+16 bit INCREMENTER
 NotDone
-16 bit FULLADDER (problem with the TB)
-16 bit INCREMENTER (problem with the TB)
 
 Prajwal
 Done
