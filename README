@@ -17,9 +17,9 @@ Done
 HALFADDER
 FULLADDER
 XOR gate
+16 bit FULLADDER
+16 bit INCREMENTER
 NotDone
-16 bit FULLADDER (problem with the TB)
-16 bit INCREMENTER (problem with the TB)
 
 Prajwal
 Done
@@ -31,8 +31,8 @@ MUX 16bit 8:1
 MUX 16bit 4:1
 DMUX 16bit 1:2
 DMUX 16bit 1:4
-NotDone
 DMUX 16bit 1:8
+NotDone
 Scripts for creating test benches - 16 bit inputs
 Scripts for verifying testbench results
 Creating log files for larger testbenches for easy verification
