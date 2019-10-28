@@ -31,8 +31,8 @@ MUX 16bit 8:1
 MUX 16bit 4:1
 DMUX 16bit 1:2
 DMUX 16bit 1:4
-NotDone
 DMUX 16bit 1:8
+NotDone
 Scripts for creating test benches - 16 bit inputs
 Scripts for verifying testbench results
 Creating log files for larger testbenches for easy verification
