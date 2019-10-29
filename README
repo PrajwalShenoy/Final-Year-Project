@@ -5,6 +5,7 @@ OR gate
 16 bit AND gate
 8 bit OR gate
 16 bit OR gate
+ALU
 NotDone
 
 Aldrich
@@ -32,11 +33,10 @@ MUX 16bit 4:1
 DMUX 16bit 1:2
 DMUX 16bit 1:4
 DMUX 16bit 1:8
+ALU
 NotDone
 Scripts for creating test benches - 16 bit inputs
 Scripts for verifying testbench results
 Creating log files for larger testbenches for easy verification
 
 ----------------------------------------------------------------------
-
-ALU
