@@ -6,6 +6,7 @@ OR gate
 8 bit OR gate
 16 bit OR gate
 ALU
+is_equal_to
 NotDone
 
 Aldrich
@@ -34,6 +35,7 @@ DMUX 16bit 1:2
 DMUX 16bit 1:4
 DMUX 16bit 1:8
 ALU
+is_equal_to
 NotDone
 Scripts for creating test benches - 16 bit inputs
 Scripts for verifying testbench results
