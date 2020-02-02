@@ -36,10 +36,11 @@ DMUX 16bit 1:4
 DMUX 16bit 1:8
 ALU
 is_equal_to
-NotDone
-Scripts for creating test benches - 16 bit inputs
-Scripts for verifying testbench results
-Creating log files for larger testbenches for easy verification
+Register 1bit
+Register 16bit
+Program Counter
+A register
+D register
 
 ----------------------------------------------------------------------
 
@@ -47,10 +48,5 @@ Things that need to be done.
 Program counter (16bit)
 D register and A register. (16bit registers are created, they just need to be called in different modules)
 RAM and ROM are needed for the simulation and need not be built using flipflops.
-
------------------------------------------------------------------------------------------
-Paarthvi
-mux 8:1
-load computation
 
 
