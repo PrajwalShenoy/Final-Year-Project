@@ -48,4 +48,9 @@ Program counter (16bit)
 D register and A register. (16bit registers are created, they just need to be called in different modules)
 RAM and ROM are needed for the simulation and need not be built using flipflops.
 
+-----------------------------------------------------------------------------------------
+Paarthvi
+mux 8:1
+load computation
+
 
