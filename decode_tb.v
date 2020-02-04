@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 02.02.2020 14:40:55
+// Create Date: 03.02.2020 12:36:55
 // Design Name: 
-// Module Name: decode
+// Module Name: decode_tb
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,22 +20,20 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module decode(out,Asel,sel,c);
-input [15:0]  c;
-input sel;
-
-output [15:0] out;
-output Asel;
-
-
-wire inst5,sel20,sel21,sel2;
-
-
-  mux16 m0(out, sel, 16'b0000101000100000, c);
-dmux d0(sel20,sel21,sel,out[5]);
-notg n0(sel2,sel20);
-mux m1(Asel,sel,sel2,sel21);
-
-
-
+module decode_tb;
+ reg [15:0]  c;
+ reg sel;
+ 
+  wire [15:0] out;
+  wire Asel;
+  
+  
+  decode dec1(out,Asel,sel,c);
+  initial begin
+    sel=1'b0;c=16'b000000111111111;#5
+	  sel=1'b0;c=16'b0101010101010101;#5
+    sel=1'b1;c=16'b1110111111100000;#5
+	  sel=1'b1;c=16'b11111000000001000;#5
+	$finish;
+   end
 endmodule
