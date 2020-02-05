@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module b_reg(out, clk, load, in);
+module d_reg(out, clk, load, in);
 input clk, load;
 input [15:0] in;
 output [15:0] out;
