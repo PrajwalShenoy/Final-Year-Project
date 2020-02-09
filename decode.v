@@ -31,7 +31,7 @@ output Asel;
 wire inst5,sel20,sel21,sel2;
 
 
-  mux16 m0(out, sel, 16'b0000101000100000, c);
+mux16 m0(out, sel, 16'b0000101000000000, c);
 dmux d0(sel20,sel21,sel,out[5]);
 notg n0(sel2,sel20);
 mux m1(Asel,sel,sel2,sel21);
