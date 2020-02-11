@@ -1,0 +1,117 @@
+`timescale 1ns / 1ps
+
+module rom(instruction, clk, pco_in);
+output [15:0] instruction;
+reg [15:0] instruction;
+input clk;
+input [15:0] pco_in;
+wire [15:0] rom_store [99:0];
+
+
+assign rom_store[0] = 16'd0;
+assign rom_store[1] = 16'd1;
+assign rom_store[2] = 16'd2;
+assign rom_store[3] = 16'd3;
+assign rom_store[4] = 16'd4;
+assign rom_store[5] = 16'd5;
+assign rom_store[6] = 16'd6;
+assign rom_store[7] = 16'd7;
+assign rom_store[8] = 16'd8;
+assign rom_store[9] = 16'd9;
+assign rom_store[10] = 16'd10;
+assign rom_store[11] = 16'd11;
+assign rom_store[12] = 16'd12;
+assign rom_store[13] = 16'd13;
+assign rom_store[14] = 16'd14;
+assign rom_store[15] = 16'd15;
+assign rom_store[16] = 16'd16;
+assign rom_store[17] = 16'd17;
+assign rom_store[18] = 16'd18;
+assign rom_store[19] = 16'd19;
+assign rom_store[20] = 16'd20;
+assign rom_store[21] = 16'd21;
+assign rom_store[22] = 16'd22;
+assign rom_store[23] = 16'd23;
+assign rom_store[24] = 16'd24;
+assign rom_store[25] = 16'd25;
+assign rom_store[26] = 16'd26;
+assign rom_store[27] = 16'd27;
+assign rom_store[28] = 16'd28;
+assign rom_store[29] = 16'd29;
+assign rom_store[30] = 16'd30;
+assign rom_store[31] = 16'd31;
+assign rom_store[32] = 16'd32;
+assign rom_store[33] = 16'd33;
+assign rom_store[34] = 16'd34;
+assign rom_store[35] = 16'd35;
+assign rom_store[36] = 16'd36;
+assign rom_store[37] = 16'd37;
+assign rom_store[38] = 16'd38;
+assign rom_store[39] = 16'd39;
+assign rom_store[40] = 16'd40;
+assign rom_store[41] = 16'd41;
+assign rom_store[42] = 16'd42;
+assign rom_store[43] = 16'd43;
+assign rom_store[44] = 16'd44;
+assign rom_store[45] = 16'd45;
+assign rom_store[46] = 16'd46;
+assign rom_store[47] = 16'd47;
+assign rom_store[48] = 16'd48;
+assign rom_store[49] = 16'd49;
+assign rom_store[50] = 16'd50;
+assign rom_store[51] = 16'd51;
+assign rom_store[52] = 16'd52;
+assign rom_store[53] = 16'd53;
+assign rom_store[54] = 16'd54;
+assign rom_store[55] = 16'd55;
+assign rom_store[56] = 16'd56;
+assign rom_store[57] = 16'd57;
+assign rom_store[58] = 16'd58;
+assign rom_store[59] = 16'd59;
+assign rom_store[60] = 16'd60;
+assign rom_store[61] = 16'd61;
+assign rom_store[62] = 16'd62;
+assign rom_store[63] = 16'd63;
+assign rom_store[64] = 16'd64;
+assign rom_store[65] = 16'd65;
+assign rom_store[66] = 16'd66;
+assign rom_store[67] = 16'd67;
+assign rom_store[68] = 16'd68;
+assign rom_store[69] = 16'd69;
+assign rom_store[70] = 16'd70;
+assign rom_store[71] = 16'd71;
+assign rom_store[72] = 16'd72;
+assign rom_store[73] = 16'd73;
+assign rom_store[74] = 16'd74;
+assign rom_store[75] = 16'd75;
+assign rom_store[76] = 16'd76;
+assign rom_store[77] = 16'd77;
+assign rom_store[78] = 16'd78;
+assign rom_store[79] = 16'd79;
+assign rom_store[80] = 16'd80;
+assign rom_store[81] = 16'd81;
+assign rom_store[82] = 16'd82;
+assign rom_store[83] = 16'd83;
+assign rom_store[84] = 16'd84;
+assign rom_store[85] = 16'd85;
+assign rom_store[86] = 16'd86;
+assign rom_store[87] = 16'd87;
+assign rom_store[88] = 16'd88;
+assign rom_store[89] = 16'd89;
+assign rom_store[90] = 16'd90;
+assign rom_store[91] = 16'd91;
+assign rom_store[92] = 16'd92;
+assign rom_store[93] = 16'd93;
+assign rom_store[94] = 16'd94;
+assign rom_store[95] = 16'd95;
+assign rom_store[96] = 16'd96;
+assign rom_store[97] = 16'd97;
+assign rom_store[98] = 16'd98;
+assign rom_store[99] = 16'd99;
+
+
+always @ (posedge clk)
+begin
+        instruction = rom_store[pco_in];
+end
+endmodule
