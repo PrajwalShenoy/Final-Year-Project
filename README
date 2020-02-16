@@ -17,3 +17,15 @@ dmux16_4_tb.v  is_equal_tb.v      not16.v       xorg_tb.v
 dmux16_4.v     is_equal.v         notg_tb.v     xorg.v
 
 If you have rom.v, you probably have all the files needed and are up to date.
+
+Things that need to be done further
+* For the simulation part
+  - Implementation of RAM
+  - Implementation of assembeler (.asm to .txt)
+  - Tmplementation of assembly to verilog (.txt to .v ROM file)
+  - Execution of a test program
+  
+ * For the hardware implemnetation
+  - Selection of a suitable FPGA board
+  - Converison of the CMOS logic into a FPGA compatible logic
+  - 
