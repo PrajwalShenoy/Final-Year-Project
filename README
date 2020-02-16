@@ -1,56 +1,19 @@
-Paarthvi
-Done
-AND gate 
-OR gate 
-16 bit AND gate
-8 bit OR gate
-16 bit OR gate
-ALU
-is_equal_to
-Mux 8:1
-load computation
-NotDone
+alu_tb.v       dmux16_8_tb.v      load_tb.v     notg.v
+alu.v          dmux16_8.v         load.v        or16_tb.v
+and16_tb.v     dmux16_tb.v        mux16_4_tb.v  or16.v
+and16.v        dmux16.v           mux16_4.v     org_8_tb.v
+andg_tb.v      dmux_tb.v          mux16_8_tb.v  org_8.v
+andg.v         dmux.v             mux16_8.v     org_tb.v
+a_reg.v        d_reg.v            mux16_tb.v    org.v
+cpu.v          full_adder16_tb.v  mux16.v       program_counter_tb.v
+decoder.v      full_adder16.v     mux_8_tb.v    program_counter.v
+decode_tb.v    full_adder_tb.v    mux_8.v       register16_tb.v
+decode.v       full_adder.v       mux_tb.v      register16.v
+dff16_tb.v     half_adder_tb.v    mux.v         register_tb.v
+dff16.v        half_adder.v       nandg_tb.v    register.v
+dff_tb.v       incrementer_tb.v   nandg.v       rom_tb.v
+dff.v          incrementer.v      not16_tb.v    rom.v
+dmux16_4_tb.v  is_equal_tb.v      not16.v       xorg_tb.v
+dmux16_4.v     is_equal.v         notg_tb.v     xorg.v
 
-Aldrich
-Done
-DMUX 1:2
-script to create log files
-NotDone
-Assembler
-
-Sanath 
-Done
-HALFADDER
-FULLADDER
-XOR gate
-16 bit FULLADDER
-16 bit INCREMENTER
-Decoder and test bench
-NotDone
-The drawing of the entire Computer
-
-Prajwal
-Done
-NOT (MOS level)
-16 bit NOT gate
-MUX 2:1
-MUX 16bit 2:1
-MUX 16bit 8:1
-MUX 16bit 4:1
-DMUX 16bit 1:2
-DMUX 16bit 1:4
-DMUX 16bit 1:8
-ALU
-is_equal_to
-Register 1bit
-Register 16bit
-Program Counter
-A register
-D register
-
-----------------------------------------------------------------------
-
-Things that need to be done.
-RAM and ROM are needed for the simulation and need not be built using flipflops
-
-
+If you have rom.v, you probably have all the files needed and are up to date.
